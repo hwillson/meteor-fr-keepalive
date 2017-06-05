@@ -13,7 +13,7 @@ This is a small Meteor + Apollo (GraphQL) web application that:
 - Inserts the new issue link into the pre-canned `meteor/meteor-feature-requests` migration text (making sure it's properly url-encoded)
 - Returns the full migration text to be copied/pasted into feature requests that are being closed on `meteor/meteor`
 
-![Screenshot](blob/master/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/hwillson/meteor-fr-keepalive/master/images/screenshot.png)
 
 ## Installation / Running
 
