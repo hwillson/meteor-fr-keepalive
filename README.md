@@ -13,12 +13,14 @@ This is a small Meteor + Apollo (GraphQL) web application that:
 - Inserts the new issue link into the pre-canned `meteor/meteor-feature-requests` migration text (making sure it's properly url-encoded)
 - Returns the full migration text to be copied/pasted into feature requests that are being closed on `meteor/meteor`
 
+
+
 ## Installation / Running
 
 **Note:** You will need a [GitHub personal access token](https://github.com/settings/tokens) with public repo read access.
 
 
 1. `git clone https://github.com/hwillson/meteor-fr-keepalive.git`
-2. Modify `settings.json` to add in your GH personal access token.
-3. `meteor npm start`
+2. Modify `app/settings.json` to add in your GH personal access token.
+3. `cd app; meteor npm start`
 4. Access http://localhost:3000.
